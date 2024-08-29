@@ -42,6 +42,6 @@ if __name__== '__main__':
     sue.giveRaise(.10)
     print(sue)
     tom = Manager ('Tom Jones', 50000)   # Название должности не требуется:
-    tom.giveRaise(.10)      # Оно подразумевается устанавливается классом
+    tom.giveRaise(.10)      # Она устанавливается классом
     print(tom.lastName())
     print(tom)

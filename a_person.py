@@ -93,7 +93,7 @@ class Person:
 
 class Manager(Person):
     def __init__(self, name, pay):     # Переопределить конструктор
-        Person.__init__(self, name, 'mgr', pay) # Выполнить исходный c ’mgr1
+        Person.__init__(self, name, 'mgr', pay) # Выполнить исходный c 'mgr'
 
     def giveRaise(self, percent, bonus=.10):
         Person.giveRaise(self, percent + bonus)

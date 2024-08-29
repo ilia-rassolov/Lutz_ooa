@@ -1,4 +1,4 @@
-from classtools import AttrDisplay  # Использовать обобщенный инструмент отображения
+from d_classtools import AttrDisplay  # Использовать обобщенный инструмент отображения
 
 
 

@@ -1,4 +1,4 @@
-from person import Person, Manager
+from a_person import Person, Manager
 
 
 class Department:
